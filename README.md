@@ -27,20 +27,19 @@
 1. Готовый playbook находится здесь: [Playbook](https://github.com/temagraf/08-ansible-02-playbook/tree/master/playbook)
 
 2. Скрин выполнения `ansible-lint site.yml` (ошибки были исправлены ранее):
-
-![Screen1](https://github.com/temagraf/08-ansible-02-playbook/blob/master/img/2024-12-18_20-27-18.png)
+![Screen1](https://github.com/temagraf/08-ansible-02-playbook/blob/main/img/2024-12-18_20-27-18.png)
 
 3. Скрин запуска playbook с флагом `--check` - playbook завершает работу с ошибкой по причине отсутствия файла потому, что в этом режиме никаких изменений на окружении не производится:
 
-![Screen2](https://github.com/temagraf/08-ansible-02-playbook/blob/master/img/2024-12-18_20-33-43.png)
+![Screen2](https://github.com/temagraf/08-ansible-02-playbook/blob/main/img/2024-12-18_20-33-43.png)
 
 4. Скрин запуска playbook на окружении, развернутого из Docker образов Centos7 с флагом `--diff`, изменения на системе произведены:
 
-![Screen3](https://github.com/temagraf/08-ansible-02-playbook/blob/master/img/2024-12-19_00-46-08.png)
+![Screen3](https://github.com/temagraf/08-ansible-02-playbook/blob/main/img/2024-12-19_00-46-08.png)
 
 5. Скрин повторного запуска playbook с флагом `--diff` - playbook идемпотентен:
 
-![Screen4](https://github.com/temagraf/08-ansible-02-playbook/blob/master/img/2024-12-19_00-47-42.png)
+![Screen4](https://github.com/temagraf/08-ansible-02-playbook/blob/main/img/2024-12-19_00-47-42.png)
 
 
 ### Как оформить решение задания
